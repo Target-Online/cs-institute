@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "CS Institute",
+    "description": "CS Institute",
+    "slug": "CSInvestment",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.9",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon.png",
+    "splash": {
+      "image": "./assets/icons/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.targetonline.csinvestment",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to allow users to update profile prictures. Your photos wont be shared without your permission.",
+        "NSPhotoLibraryUsageDescription": "This app uses the camera to allow users to update profile prictures. Your photos wont be shared without your permission."
+      }
+    },
+    "android": {
+      "package": "com.targetonline.csinvestment",
+      "versionCode": 109
+    }
+  }
+}

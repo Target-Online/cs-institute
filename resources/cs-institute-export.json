@@ -1,0 +1,562 @@
+{
+  "courses" : {
+    "advanced-masterclass" : {
+      "avatar" : "https://images.unsplash.com/photo-1563986768711-b3bde3dc821e?ixlib=rb-1.2.1&auto=format&fit=crop&w=748&q=80",
+      "createdAt" : 1585402558476,
+      "description" : "3 MONTHS COURSE\n- Saturday - 8am - 10am\n- Sunday  - 8am - 12pm\n- 1 March 2020 - 1 June 2020\n- Fees : R1000 \n\nVENUE : Online Classes\n\nONE ON ONE SESSION: R200 per hour\n\nCOURSE CURRICULUM\n- Live Training \n- Practical assessments \n- Practical learning experience \n- Understanding technical analysis ",
+      "id" : "advanced-masterclass",
+      "name" : "Advanced Masterclass"
+    },
+    "beginners-masterclass" : {
+      "avatar" : "https://images.unsplash.com/photo-1569025743873-ea3a9ade89f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "createdAt" : 1585557104933,
+      "description" : "3 MONTHS COURSE\n- Saturday - 8am - 10am\n- Sunday  - 8am - 12pm\n- 1 March 2020 - 1 June 2020\n- Fees : R1000\n\nVENUE : Online Classes\n\nONE ON ONE SESSION: R200 per hour\n\nCOURSE CURRICULUM\n- Intro to stock markets & currencies \n- Into to Forex (Foreign Exchange)\n- Stats, Vitality & Market Expectations \n- The Trade- Buzz Words & What they mean \n- Other Trading Options \n- Review & Your First Trade",
+      "id" : "beginners-masterclass",
+      "name" : "Beginners Masterclass"
+    },
+    "intermediate-masterclass" : {
+      "avatar" : "https://images.unsplash.com/photo-1559526324-593bc073d938?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "createdAt" : 1585402558476,
+      "description" : "3 MONTHS COURSE\n- Saturday - 8am - 10am\n- Sunday  - 8am - 12pm\n- 1 March 2020 - 1 June 2020\n- Fees: R1000\n\nVENUE : Online Classes\n\nONE ON ONE SESSION: R200 per hour\n\nCOURSE CURRICULUM\n- Live Training \n- Practical assessments \n- Practical learning experience \n- Understanding technical analysis",
+      "id" : "intermediate-masterclass",
+      "name" : "Intermediate Masterclass"
+    }
+  },
+  "posts" : {
+    "-M46uLIZt7nYqw-BL3Kd" : {
+      "caption" : "Now look where is the current price.. From 1526.74 to 1461.102 as predicted ??????",
+      "createdAt" : 0,
+      "datetime" : "08-Nov-19 4:40 PM",
+      "id" : "-M46uLIZt7nYqw-BL3Kd",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fs2d0dfo0pekv9ux39fnxk?alt=media&token=1b234004-9180-4ec9-8c58-f6bd6906827b",
+      "likes" : 87,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIbv7yQSPB0hGN5" : {
+      "caption" : "A decline from 1.32829 to 1.29955 as predicted  , Remember this analysis?",
+      "createdAt" : 0,
+      "datetime" : "05-Jan-20 9:16 AM",
+      "id" : "-M46uLIbv7yQSPB0hGN5",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fm3k4yhplv6kv7i759v2f?alt=media&token=d83cbed6-2e19-456b-abe4-ce7781f84c9d",
+      "likes" : 13,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIdCuy-a2mt7KON" : {
+      "caption" : "Hi Team... . I hope you are having a good day.. I just thought I should update about TRENDLINES So basically im sure if you have  noticed when I draw my charts I always have long term and short term trendlines.Just a recap for those who had classes with m",
+      "createdAt" : 0,
+      "datetime" : "10-Sep-19 10:54 AM",
+      "id" : "-M46uLIdCuy-a2mt7KON",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2F983irzvq84o6wrj6oigk?alt=media&token=a39fdf71-acef-4dda-9f1e-01c4872822bc",
+      "likes" : 56,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIe_NHtIjhYOBqV" : {
+      "caption" : "Btcoin Analysis that was posted ",
+      "createdAt" : 0,
+      "datetime" : "12-Feb-20 11:27 PM",
+      "id" : "-M46uLIe_NHtIjhYOBqV",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2F27tugaid97l1eelqlref8x?alt=media&token=8c59d6b9-4751-4616-acdb-61afd64d4c8d",
+      "likes" : 50,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIg3bDaIOiS0DNL" : {
+      "caption" : "A huge possibility of a trend reversal that can go further to 1.77 area..",
+      "createdAt" : 0,
+      "datetime" : "12-Jan-20 9:17 PM",
+      "id" : "-M46uLIg3bDaIOiS0DNL",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2F283dad7peghwlbpyrgxlg?alt=media&token=ceaa2d6a-5c32-421d-a14e-1f6af62b7809",
+      "likes" : 85,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIhY9EoeGVyWKzo" : {
+      "caption" : "Hi stars .. Do you see  Btcusd is forming a  bull flag.. Lets just wait and see if it will be able to  break through resistance level then we will go higher ??????",
+      "createdAt" : 0,
+      "datetime" : "08-Nov-19 5:45 PM",
+      "id" : "-M46uLIhY9EoeGVyWKzo",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fijlvix6d55n3xhqftwsifi?alt=media&token=58b7d75b-b3f0-4e16-9592-bd28936f0558",
+      "likes" : 25,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIj4PVL9VwmFGxd" : {
+      "caption" : "Hi legends..A decline from 1.32562 to 1.31849 as predicted, Still anticipating for more short entries. What do you say? ????????",
+      "createdAt" : 0,
+      "datetime" : "08-Nov-19 5:58 AM",
+      "id" : "-M46uLIj4PVL9VwmFGxd",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fvm0c8wiusnapn33y4o3kq?alt=media&token=f0b58986-67be-4911-8399-b45e52774a0f",
+      "likes" : 95,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIk90s5XAvbHfWe" : {
+      "caption" : "Awaiting break and retest of inverted and shoulder pattern, Surely anticipating for long entry.. What do you say? ",
+      "createdAt" : 0,
+      "datetime" : "06-Nov-19 8:06 AM",
+      "id" : "-M46uLIk90s5XAvbHfWe",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fvia8c73xfe827ulwb4u5hvi?alt=media&token=31aee424-e1ad-4105-929e-366fd3d7e41b",
+      "likes" : 65,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLImBfXCyyaeqBO_" : {
+      "caption" : "Remember this analysis???",
+      "createdAt" : 0,
+      "datetime" : "07-Jan-20 10:15 PM",
+      "id" : "-M46uLImBfXCyyaeqBO_",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2F9ljruesavrnc2d93qdq5km?alt=media&token=fae19136-38c5-4e11-b409-6982b0cb4f37",
+      "likes" : 24,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLInNNTcvHuBDr_E" : {
+      "caption" : "Corona Virus has caused havoc in financial market.Still expecting for more short entries ",
+      "createdAt" : 0,
+      "datetime" : "11-Mar-20 11:09 PM",
+      "id" : "-M46uLInNNTcvHuBDr_E",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2F37f3oajfn451ebco0adio?alt=media&token=807df52c-e3bb-4751-8032-8d455d937b69",
+      "likes" : 61,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIpWabWivDqxZDM" : {
+      "caption" : "Hi legends have you noticed that Audnzd is forming a double top.. Now awaiting bearish candlestick to confirm a short entry. What do you say?? ??????",
+      "createdAt" : 0,
+      "datetime" : "07-Nov-19 8:29 AM",
+      "id" : "-M46uLIpWabWivDqxZDM",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2F609r0j049iqa0da67pz8j?alt=media&token=bd2fc289-0e86-45d9-bc45-67a923defdab",
+      "likes" : 44,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIqj-W9ZMQTm0xs" : {
+      "caption" : "A decrease from 1.08167 to 1.06227 as predicted ????????",
+      "createdAt" : 0,
+      "datetime" : "19-Nov-19 8:38 PM",
+      "id" : "-M46uLIqj-W9ZMQTm0xs",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Frxeisc7qnhoso28gm8kq?alt=media&token=59755ff0-3561-4982-bb09-f35dddcda459",
+      "likes" : 58,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIsXDlkdjP5XpRS" : {
+      "caption" : "Is NASDAQ validating a short move?.. Well I see a  Head and Shoulder patter forming and also my  descending triangle was broken and retested..Im aniticipating for short move.. What do you say? ",
+      "createdAt" : 0,
+      "datetime" : "17-Sep-19 1:25 PM",
+      "id" : "-M46uLIsXDlkdjP5XpRS",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2F26xfybczz56u335ac4rhcg?alt=media&token=69c19d52-b743-4f51-b5ce-72b0e32cb697",
+      "likes" : 64,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIt8qi1jTYeROHW" : {
+      "caption" : "Hi legends this is the Xauusd analysis I posted last week, it has finally dropped as predicted.. Gold is experiencing a pressure from USA.. Im stil anticipating for more short entries",
+      "createdAt" : 0,
+      "datetime" : "14-Sep-19 11:28 AM",
+      "id" : "-M46uLIt8qi1jTYeROHW",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fdqpslyrpakcip01633dkb?alt=media&token=3b2bccd9-17ed-4e7e-b89b-e73818e09b37",
+      "likes" : 85,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIvp66H3KYVp9Pt" : {
+      "caption" : "Is Usdjpy forming a potential drop a reverse from resistance?? .. lets just wait  and see ",
+      "createdAt" : 0,
+      "datetime" : "17-Sep-19 2:01 PM",
+      "id" : "-M46uLIvp66H3KYVp9Pt",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2F8bic8vc47b6ozcwfxtekqc?alt=media&token=ea6677a6-9d27-4246-ad31-5c3ef923ee57",
+      "likes" : 4,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIwZolNK1AAezCe" : {
+      "caption" : "Happy Good Friday Traders, I'm sure you aware that most major banks were closed for trading including London and Germany which means there wasn't much volatility on financial Markets as you can see Gold  will be closing with a counter trend line.It looks",
+      "createdAt" : 0,
+      "datetime" : "19-Apr-19 8:33 PM",
+      "id" : "-M46uLIwZolNK1AAezCe",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Ft1egh0l9dupc40kpb617p?alt=media&token=2af25956-c221-4c08-9ca3-44359e68b3d1",
+      "likes" : 68,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLIya0BLYpHL_Bhj" : {
+      "caption" : "Good day traders.. Please check out NZDUSD.. There's a high probability of NZDUSD to go long  since Ascencing channel and Bulllish Butterfly are confirmed possibilities of correction all the way back to the top.. More opportunities for buyers. ",
+      "createdAt" : 0,
+      "datetime" : "25-Aug-19 1:20 PM",
+      "id" : "-M46uLIya0BLYpHL_Bhj",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fg3y3ock8t9ax2fdjzcgs?alt=media&token=8773922f-8657-4d79-b320-7ad1a8bc1c10",
+      "likes" : 7,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLJ0GYgy0VRvm_xc" : {
+      "caption" : "Could Saudi Oil Explosion affect USDCAD?.It seems like the price will have a major bullback considering the fact that it broke and retested the suppprt trendline of a descending channel, That suppprt trend is now a resistance trendline which means more in",
+      "createdAt" : 0,
+      "datetime" : "16-Sep-19 3:42 PM",
+      "id" : "-M46uLJ0GYgy0VRvm_xc",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fapb3u3g7eu7dzkmlt8cn2v?alt=media&token=7474870d-cd7c-4e2c-ad53-d8a24676d87e",
+      "likes" : 15,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLJ1gqfG7i0PWLRJ" : {
+      "caption" : "Hi Stars.. I'm anticipating for bearish movements continuing this coming week as price on the daily touched our trendline for the 3rd time and bearish butterfly is formed. What do you say? ",
+      "createdAt" : 0,
+      "datetime" : "17-Nov-19 10:25 PM",
+      "id" : "-M46uLJ1gqfG7i0PWLRJ",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fdp85ttxzlueuxq61mxhd5?alt=media&token=2b581130-7571-4f8a-849f-e2f382861876",
+      "likes" : 4,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLJ3IKpoaJFTFHrH" : {
+      "caption" : "Prediction of Rand I posted earlier  this year",
+      "createdAt" : 0,
+      "datetime" : "19-Mar-20 12:57 PM",
+      "id" : "-M46uLJ3IKpoaJFTFHrH",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fq6ijiury0c8jfjwd0mwp3p?alt=media&token=b2c6d33b-b112-44b2-bb4e-ee90fe5c6161",
+      "likes" : 78,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLJ5-6g_0sRLa_bD" : {
+      "caption" : "Hi guys do you see a tripple top??. I forsee a selling pressure on the way??????",
+      "createdAt" : 0,
+      "datetime" : "19-Nov-19 7:50 AM",
+      "id" : "-M46uLJ5-6g_0sRLa_bD",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fxya495dpt8mll21vvaeutp?alt=media&token=e0193995-e5e8-4fdd-ae99-a70d9986ed77",
+      "likes" : 37,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLJ7xhpJFuil5jWl" : {
+      "caption" : "Remember this ? ",
+      "createdAt" : 0,
+      "datetime" : "14-May-19 12:29 AM",
+      "id" : "-M46uLJ7xhpJFuil5jWl",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fpqtjmagdvkjo6s2kwloryj?alt=media&token=25ec9ad6-f8e2-4ef0-834b-0ef7f7b4545a",
+      "likes" : 43,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLJA5vCZffKGEa90" : {
+      "caption" : "Bitcoin seems to be moving side ways, But im anticipating for a massive uptrend, lets just wait for a breakout at Resistance ??????",
+      "createdAt" : 0,
+      "datetime" : "17-Sep-19 1:47 PM",
+      "id" : "-M46uLJA5vCZffKGEa90",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fcw248h3t8346wp4u4uxb8h?alt=media&token=a1c24c93-47cf-49db-ab0e-6ed2f19fdda2",
+      "likes" : 5,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLJBYaCTnSjrqYJt" : {
+      "caption" : "Then eventually my tripple top analysis came right..a decline from 1.29554 to 1.28292. How many pips here?",
+      "createdAt" : 0,
+      "datetime" : "23-Nov-19 1:01 PM",
+      "id" : "-M46uLJBYaCTnSjrqYJt",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fh7x7w1pk3glvvt28bo0a4?alt=media&token=8e2a29c8-2257-4f4d-92c4-414185d64cec",
+      "likes" : 73,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLJDrephuhJvYOl0" : {
+      "caption" : " Hi legends im not sure if you see what I see on this Usdjpy analysis. So. I have drawn 2 sets of trendlines, One is long ",
+      "createdAt" : 0,
+      "datetime" : "16-Sep-19 2:46 PM",
+      "id" : "-M46uLJDrephuhJvYOl0",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fiz25qgxwj99dsr0nlt7min?alt=media&token=94510dca-865e-4553-b1a0-2c39be4496a5",
+      "likes" : 72,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLJEEX2CAi_x71Js" : {
+      "caption" : "Remember this chart analysis?",
+      "createdAt" : 0,
+      "datetime" : "19-Jan-20 8:45 PM",
+      "id" : "-M46uLJEEX2CAi_x71Js",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fcywbpbmy35dkt4gq3i6dl?alt=media&token=eb06e192-a07f-4b83-852f-33482d1fb900",
+      "likes" : 57,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLJH8H-cUroNslZL" : {
+      "caption" : "Hi legends Xauusd update.., I see a possible short entry from 1526.740 to 1450.00,if you noticed on my long term trend line it formed descending channel  and on my short term  trend line(Yellow One), it looks like it's gonna form a double top on Resistanc",
+      "createdAt" : 0,
+      "datetime" : "25-Aug-19 9:42 PM",
+      "id" : "-M46uLJH8H-cUroNslZL",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2F9vig3f3msbs0tlral5ez89q?alt=media&token=1caf940b-034d-479c-b5b2-e7e9d6a2b38a",
+      "likes" : 26,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLJJlEUSk_CS60Ah" : {
+      "caption" : "GBPNZD Daily  chart, It looks like the price will go down, bearish Butterfly is formed, Awaiting bearish pin bar  at resistance on my yellow trend line, possible entry point is at D leg, Target Profit is indicated by white arrow, what's your intake?? ????",
+      "createdAt" : 0,
+      "datetime" : "25-Aug-19 6:33 PM",
+      "id" : "-M46uLJJlEUSk_CS60Ah",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fk6w3hr44izq3o8pdyeg16v?alt=media&token=67ae8f4a-9e42-4157-90ca-cc3a1f28f853",
+      "likes" : 4,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLJKj8WQoQ-M2D_i" : {
+      "caption" : "Usdcad update.. It looks like the price might bounce back from resistance and massive decline will occur, The safest entry point would be when your support has been broken and retested,Legends also make your own analysis before you decide whether you taki",
+      "createdAt" : 0,
+      "datetime" : "27-Nov-19 11:10 PM",
+      "id" : "-M46uLJKj8WQoQ-M2D_i",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fpfvx8m2l55m95ygy5c65n?alt=media&token=8caa3986-fb27-4223-82de-acbee9d22bed",
+      "likes" : 54,
+      "userId" : "csentillegmailcom"
+    },
+    "-M46uLJLi66f4y8Moktg" : {
+      "caption" : "Legends do you also see a possible long entry on this chart??? Just waiting for Bullish pin bar to confirm a long entry ??????",
+      "createdAt" : 0,
+      "datetime" : "26-Nov-19 11:11 PM",
+      "id" : "-M46uLJLi66f4y8Moktg",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FMarketUpdates%2Fdls7kcfpueubj4i99fb0sd?alt=media&token=d2e49244-1e9a-41bc-9cea-fbb9c8b8cfa1",
+      "likes" : 47,
+      "userId" : "csentillegmailcom"
+    }
+  },
+  "users" : {
+    "cenendalgmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fsonwabiso.JPG?alt=media&token=f385b952-e9d6-46f2-8ba6-389ed2bde122",
+      "city" : "Gauteng",
+      "createdAt" : 1585937063743,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "cenendal@gmail.com",
+      "id" : "cenendalgmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Sonwabiso",
+      "password" : "*********",
+      "uid" : "2YV9g8D9CwelERTjLVbvFgF1V113"
+    },
+    "cmadiri6gmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fcaurage.JPG?alt=media&token=5f30562c-b05c-4ecb-9b81-69f54976aae9",
+      "city" : "Cape Town",
+      "createdAt" : 1585936831155,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "cmadiri6@gmail.com",
+      "id" : "cmadiri6gmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Courage",
+      "password" : "*********",
+      "uid" : "DdgmGHis0LhUru2nAseIVRBCuMa2"
+    },
+    "csentillegmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fchuma.jpg?alt=media&token=bfc79b19-fcaa-4a23-b9fe-794ba03ae920",
+      "city" : "Cape Town",
+      "createdAt" : 1585944539125,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "csentille@gmail.com",
+      "id" : "csentillegmailcom",
+      "isAdmin" : true,
+      "isStudent" : false,
+      "name" : "Chuma",
+      "password" : "*********",
+      "title" : "Co Founder",
+      "uid" : "aYKg8buPL4PaJGHPQUwFBbkBlok1"
+    },
+    "dotyentombentlegmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fentle.JPG?alt=media&token=9a9759de-c7fb-4e85-aa0b-92a4df6b2d11",
+      "city" : "Gauteng",
+      "createdAt" : 1585936961243,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "dotye.ntombentle@gmail.com",
+      "id" : "dotyentombentlegmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Entle",
+      "password" : "*********",
+      "uid" : "I6FJFAawwWZx4bRE6YPivpNTS472"
+    },
+    "honeyunathi7gmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2F0v9fa6ljpzfsubj8rk2k8c?alt=media&token=a861ccd1-536e-41c6-a8fc-244dc7ab2386",
+      "city" : "Eastern Cape",
+      "createdAt" : 1585938151675,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "Honeyunathi7@gmail.com",
+      "id" : "honeyunathi7gmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Unathi",
+      "password" : "*********",
+      "uid" : "6mCBZjudszVoR0nPdZEUUphgLVf2"
+    },
+    "janmametjagmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2F4tmrvb8cmv6x7jc13nm72?alt=media&token=deda2f54-5b2e-4262-9e97-1bfa5a9f7702",
+      "city" : "Durban",
+      "createdAt" : 1585938265745,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "Janmametja@gmail.com",
+      "id" : "janmametjagmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Dumisa",
+      "password" : "*********",
+      "uid" : "Ajqp5ZwVCuNiqLXMxc3C9jBnVAI3"
+    },
+    "khirawanlalgmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fapypih0ujxdvxyojkm5pi?alt=media&token=511d9a81-d524-493e-b235-e3429d6e0f59",
+      "city" : "Durban",
+      "createdAt" : 1585937284132,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "khirawanlal@gmail.com",
+      "id" : "khirawanlalgmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Karitsha",
+      "password" : "*********",
+      "uid" : "TZDHE4wveKNGRlhx34rvDO9WBpj1"
+    },
+    "lweystargmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2F1msa7ohwyewkpnqacvc16k?alt=media&token=e1fdd278-c38e-4e0f-8624-d03fa4e87215",
+      "city" : "Cape Town",
+      "createdAt" : 1585944660961,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "lweystar@gmail.com",
+      "id" : "lweystargmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Lwazi",
+      "password" : "*********",
+      "uid" : "Vt36D5HyOPYPuAQsPgoTnOtIKg32"
+    },
+    "majikijelaayathandwagmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fqho79hia9n80689z8lo5r?alt=media&token=3b3e7494-a4b5-421d-b09e-819d5ff38826",
+      "city" : "Durban",
+      "createdAt" : 1585937830701,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "majikijelaayathandwa@gmail.com",
+      "id" : "majikijelaayathandwagmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Ayathandwa",
+      "password" : "*********",
+      "uid" : "UbDx6SVFO6OH6HNwR2p3YOMun0H2"
+    },
+    "mkhskh003myuctacza" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/cs-institute.appspot.com/o/Development%2Fimages%2Fsignup%2Fz2hlsnef9egku2td7buv9g?alt=media&token=0db395f8-cc08-447f-aed5-2a91ba34782a",
+      "city" : "Capetown",
+      "createdAt" : 1585924570581,
+      "deviceId" : "ExponentPushToken[LQcYfnAHE3jNQLZwFXU12H]",
+      "email" : "mkhskh003@myuct.ac.za",
+      "id" : "mkhskh003myuctacza",
+      "isAdmin" : true,
+      "isStudent" : false,
+      "name" : "Skhumbuzo",
+      "password" : "*********",
+      "suburb_township" : "Wynberg",
+      "title" : "Software Developer",
+      "uid" : "yMFlPUfNfqbJ0TYrHHkt7dYohRh2"
+    },
+    "mnisikatlegocgmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2F0sfgf7e062xmwiei4w94jfb?alt=media&token=31cb9a25-433c-4b12-aa61-c312bd47fd0c",
+      "city" : "Gauteng",
+      "createdAt" : 1585944737350,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "Mnisikatlegoc@gmail.com",
+      "id" : "mnisikatlegocgmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Katlego",
+      "password" : "*********",
+      "uid" : "E8oJtHV1J6W7dRboQVciSQtHOqV2"
+    },
+    "mrefuinnocentgmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Finnocent.JPG?alt=media&token=dc26b278-d231-4e9b-b791-c9b986ad6e70",
+      "city" : "Cape Town",
+      "createdAt" : 1585936517310,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "mrefuinnocent@gmail.com",
+      "id" : "mrefuinnocentgmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Innocent",
+      "password" : "*********",
+      "uid" : "TXHiIskNcyR7j8XvTmvfl75KDIv2"
+    },
+    "pmntongagmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fpy39rkwyrreicfcuycl3cg?alt=media&token=3de0dbfe-294d-4927-9996-686f65ab78c8",
+      "city" : "Gauteng",
+      "createdAt" : 1585944142964,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "pmntonga@gmail.com",
+      "id" : "pmntongagmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Pesh",
+      "password" : "*********",
+      "uid" : "YGzwl4AZSheHn2z0HMERBKszytI3"
+    },
+    "sakhilemswenkogmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fhc998a1xpa5hoechj8r6hr?alt=media&token=af1b9157-e5bd-4eb7-87c5-2ec6e0094835",
+      "city" : "Cape Town",
+      "createdAt" : 1585944818199,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "sakhilemswenko@gmail.com",
+      "id" : "sakhilemswenkogmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Sakhile",
+      "password" : "*********",
+      "uid" : "jyM881zp6tb1m6TTC4SWvXIYPKj2"
+    },
+    "sinahngolo3gmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fkao20hl0aczydtrx7jjgm?alt=media&token=bdafc8df-fd11-4135-893c-b2e1a4bb522b",
+      "city" : "Cape Town",
+      "createdAt" : 1585938468920,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "Sinahngolo3@gmail.com",
+      "id" : "sinahngolo3gmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Sino",
+      "password" : "*********",
+      "uid" : "JVh1lZBMYeUjnwr5p763Cbhxvd22"
+    },
+    "soboycekinggmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fzfkgfafc7lgtvno3inbee?alt=media&token=c300dc32-fee0-4ec8-9c6c-41b7c663cbd9",
+      "city" : "Durban",
+      "createdAt" : 1585937373279,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "Soboyceking@gmail.com",
+      "id" : "soboycekinggmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Sizwe",
+      "password" : "*********",
+      "uid" : "l6mMaRBhrxefu0Nd71ZKpWAn2nw2"
+    },
+    "theoazolanika96gmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fh1ju6ny09u4h8csv87w9y?alt=media&token=474b4c50-3870-4354-aa0f-5c2a6ad4572d",
+      "city" : "Cape Town",
+      "createdAt" : 1585937506882,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "theoazolanika96@gmail.com",
+      "id" : "theoazolanika96gmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Azola",
+      "password" : "*********",
+      "uid" : "JxRGAE3pQ9MKhwSbaDptgE9zn203"
+    },
+    "tmgabayigmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fthembakazi.JPG?alt=media&token=95a17090-6314-459b-94b6-b396960afb1f",
+      "city" : "Eastern Cape",
+      "createdAt" : 1585936343642,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "Tmgabayi@gmail.com",
+      "id" : "tmgabayigmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Thembakazi",
+      "password" : "*********",
+      "uid" : "hzpFv7t8NFQCeQYtRzjto34iyHx2"
+    },
+    "tthobekagmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fsenamile.JPG?alt=media&token=e021280e-8eee-4796-aa25-145b47f5194e",
+      "city" : "Durban",
+      "createdAt" : 1585935628236,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "Tthobeka@gmail.com",
+      "id" : "tthobekagmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Senamile",
+      "password" : "*********",
+      "uid" : "MobjdW5gdNZacxkCWVLxwApe3ft2"
+    },
+    "zandisigobogmailcom" : {
+      "avatar" : "https://firebasestorage.googleapis.com/v0/b/csinvestment-9960f.appspot.com/o/images%2FProduction%2FStudentProfiles%2Fibn176b2ixbvr81jqj4h?alt=media&token=03b2eaac-8b0c-469c-82de-f5eec2a60c33",
+      "city" : "Cape Town",
+      "createdAt" : 1585944355954,
+      "deviceId" : "ExponentPushToken[KaN3YwHdwyA-ZSVFuWMe9G]",
+      "email" : "zandisigobo@gmail.com",
+      "id" : "zandisigobogmailcom",
+      "isAdmin" : false,
+      "isStudent" : true,
+      "name" : "Zandile",
+      "password" : "*********",
+      "uid" : "AMZA6qOSYjUGYknW87vcmPqvDU22"
+    }
+  }
+}
