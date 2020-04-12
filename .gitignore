@@ -2,3 +2,4 @@
 /app/appsettings.json
 /site/missing_node_modules
 /site/.expo
+/site/src/appsettings.json
