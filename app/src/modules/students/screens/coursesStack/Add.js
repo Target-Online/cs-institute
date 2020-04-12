@@ -16,13 +16,13 @@ export default AddCourse = props => {
     const { navigation } = props;
     const [image, setImage] = useState('');
     const [course, setCourse] = useState({});
-    const [avatarUpdate, setAvatarStatus] = useState(false);
+    const [avatarUpload, setAvatarStatus] = useState(false);
 
     return (
         <ScrollView style={styles.container}>
             <Block>
                 <TouchableOpacity onPress={() => imageUtils._pickImage(setImage, setAvatarStatus)}>
-                    <Spinner inProgress={avatarUpdate}>
+                    <Spinner inProgress={avatarUpload}>
                         <ImageBackground
                             source={image != '' ? { uri: image } : Images.placeholder}
                             style={styles.profileContainer}

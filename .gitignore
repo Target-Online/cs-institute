@@ -1,2 +1,4 @@
 /app/src/modules/admins/api/secret.js
 /app/appsettings.json
+/site/missing_node_modules
+/site/.expo

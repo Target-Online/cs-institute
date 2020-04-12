@@ -32,7 +32,7 @@
     },
     "android": {
       "package": "com.targetonline.csinvestment",
-      "versionCode": 109
+      "versionCode": 11
     }
   }
 }
