@@ -4,7 +4,7 @@ import { GiftedChat } from 'react-native-gifted-chat'
 import { UserContext, UsersContext } from '../../../../../root/store';
 import { MessagesContext } from '../../../root/store';
 import { realTimedbApi } from '../../../../../api';
-import { pushNotifications } from '../../../../../shared/utils'
+import { sendPushNotifications } from '../../../../../shared/utils/pushNotificatons'
 
 export default Comments = props => {
     const [currentUser] = useContext(UserContext);
@@ -14,14 +14,15 @@ export default Comments = props => {
 
     useEffect(() =>{ if(!currentUser) props.navigation.navigate('Login') }, []);
 
+    const notifyEveryone = message => sendPushNotifications(
+        users.data,
+        "Market Update Comment",
+        `${currentUser.name}: ${message}`
+    )
+
     onSend = message => {
         realTimedbApi.setData('messages', { ...message, parentId: post.id })
-
-        pushNotifications.sendPushNotifications(
-            users.data,
-            "Market Update Comment!",
-            message.text
-          )
+        notifyEveryone(message.text)
     }
 
     return (

@@ -179,11 +179,11 @@ const Header = props => {
         style={styles.navbar}
         transparent={transparent}
         right={renderRight()}
-        rightStyle={{ alignItems: 'center' }}
+        rightStyle={{ justifyContent: 'flex-end' }}
         leftStyle={{ flex: 0.3, paddingTop: 2 }}
-        leftIconFamily={title == 'Home' ? "EvilIcons" : "AntDesign"}
-        leftIconName={title == 'Home' ? "navicon" : "left"}
-        leftIconColor={title == 'Home' ? theme.COLORS.ICON : materialTheme.COLORS.PRIMARY}
+        leftIconFamily={title == appsettings.appName  ? "EvilIcons" : "AntDesign"}
+        leftIconName={title == appsettings.appName ? "navicon" : !back ? "" : "left"}
+        leftIconColor={title == appsettings.appName  ? theme.COLORS.ICON : materialTheme.COLORS.PRIMARY}
         titleStyle={[
           styles.title,
           { color: theme.COLORS[white ? 'WHITE' : 'ICON'] },

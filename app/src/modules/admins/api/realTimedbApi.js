@@ -12,7 +12,7 @@ const db = targetOnline_db.database();
 export const getCollection = (
     ref,
     dispatch
-) => db.ref(ref).on("value", data => {
+) => db.ref(ref).once("value", data => {
     data.val() && dispatch({ type: 'setData', data: O2A(data) });
     dispatch({ type: 'setInProgress', inProgress: false });
 }, error => {

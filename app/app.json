@@ -25,6 +25,7 @@
     "ios": {
       "bundleIdentifier": "com.targetonline.csinvestment",
       "supportsTablet": true,
+      "usesIcloudStorage": true,
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to allow users to update profile prictures. Your photos wont be shared without your permission.",
         "NSPhotoLibraryUsageDescription": "This app uses the camera to allow users to update profile prictures. Your photos wont be shared without your permission."

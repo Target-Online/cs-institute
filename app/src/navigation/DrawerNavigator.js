@@ -62,7 +62,7 @@ const HomeStack = createStackNavigator({
   Home: {
     screen: HomeScreen,
     navigationOptions: ({ navigation }) => ({
-      header: <Header black title="Home" navigation={navigation} />,
+      header: <Header black title={appsettings.appName} navigation={navigation} />,
       headerTransparent: true,
     })
   },
@@ -121,7 +121,7 @@ const LoginStack = createStackNavigator({
     Login: {
       screen: LoginScreen,
       navigationOptions: ({ navigation }) => ({
-        header: <Header transparent black back title="Login" navigation={navigation} />,
+        header: <Header transparent black title="Login" navigation={navigation} />,
       })
     },
     Signup: {
@@ -145,7 +145,7 @@ const AppStack = createDrawerNavigator(
       screen: HomeStack,
       navigationOptions: {
         drawerLabel: ({ focused }) => (
-          <Drawer focused={focused} screen="Home" title="Home" />
+          <Drawer focused={focused} screen="Home" title='Home' />
         )
       }
     },

@@ -4,10 +4,11 @@ import { Button, Block, theme } from 'galio-framework';
 import { LinearGradient } from 'expo-linear-gradient';
 
 import { materialTheme, utils } from '../../shared/constants';
-import { imageUtils, pushNotifications } from '../../../../shared/utils';
+import { imageUtils } from '../../../../shared/utils';
+import { sendPushNotifications } from '../../../../shared/utils/pushNotificatons';
 import { Images } from '../../../../shared/constants';
 import { realTimedbApi } from '../../../../api';
-import { onError } from '../../../../shared/utils/notifications';
+import { onError, onSuccess } from '../../../../shared/utils/notifications';
 import { UserContext,UsersContext } from '../../../../root/store';
 import { Spinner } from '../../../../shared/components';
 
@@ -23,6 +24,12 @@ export default AddCourse = props => {
     const [avatarUpdate, setAvatarStatus] = useState(false)
 
     useEffect(() => { if (!currentUser) props.navigation.navigate('Login') }, []);
+
+    const notifyEveryone = caption => sendPushNotifications(
+        users.data,
+        "New Market Update!",
+        caption
+    )
 
     return (
         <ScrollView style={styles.container}>
@@ -65,11 +72,8 @@ export default AddCourse = props => {
                                     caption: caption,
                                     image: image
                                 })
-                                pushNotifications.sendPushNotifications(
-                                    users.data,
-                                    "New Market Update!",
-                                    caption
-                                )
+                                notifyEveryone(caption);
+                                onSuccess('Post added successfully');
                                 navigation.goBack();
                             }
                             else onError('Enter caption')

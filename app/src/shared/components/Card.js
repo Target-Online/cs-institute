@@ -17,7 +17,7 @@ class Product extends React.Component {
       <Block row={horizontal} card flex style={[styles.product, styles.shadow, style]}>
         <Block flex style={[styles.imageContainer, styles.shadow]}>
           {product.image 
-            ? <Image source={product.image} style={imageStyles} />
+            ? <Image source={product.image} resizeMode={'contain'} style={imageStyles} />
             : <TabBarIcon focused={true} name={'user'} />
           }
         </Block>

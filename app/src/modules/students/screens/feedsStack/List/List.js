@@ -1,14 +1,19 @@
-import React, { useContext } from 'react';
+import moment from 'moment';
+import React, { useContext, useState } from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView, Dimensions } from 'react-native'
 import { Block } from 'galio-framework';
-import moment from 'moment';
+import Dialog from "react-native-dialog";
 
 import { PostsContext, LikesContext, MessagesContext } from '../../../root/store'
 import { UserContext, UsersContext } from '../../../../../root/store';
 import TabBarIcon from '../../../shared/components/TabBarIcon';
-import { Filter } from '../../../../../shared/components';
+import { Filter, Icon } from '../../../../../shared/components';
 import { Images } from '../../../../../shared/constants';
-import { realTimedbApi } from '../../../../../api';
+import { onSuccess } from '../../../../../shared/utils/notifications';
+import { sendPushNotifications } from '../../../../../shared/utils/pushNotificatons';
+import * as api from '../../../../../api/realTimedbApi';
+
+const { height } = Dimensions.get('screen');
 
 export default Feeds = props => {
     const [currentUser] = useContext(UserContext);
@@ -17,20 +22,50 @@ export default Feeds = props => {
     const [users] = useContext(UsersContext);
     const [messages] = useContext(MessagesContext);
 
+    const [deleteVisible, setDeleteVisible] = useState(false);
+    const [deletePost, setDeletePost] = useState({});
+
+    const DeleteDialog = () => (
+        <View>
+            <Dialog.Container visible={deleteVisible}>
+                <Dialog.Title>Delete Post</Dialog.Title>
+                <Dialog.Description>
+                    You are about to delete this post.
+          </Dialog.Description>
+                <Dialog.Button label="Cancel" onPress={() => setDeleteVisible(false)} />
+                <Dialog.Button label="Delete" onPress={() => {
+                    api.removeData('posts', deletePost.id);
+                    onSuccess('Post deleted successfully.');
+                    setDeleteVisible(false);
+                }} />
+            </Dialog.Container>
+        </View>
+    )
     const renderTopSection = post => {
         const user = users.data.find(u => u.id == post.userId)
         return (
-            <View style={styles.row}>
-                <Image source={user.avatar == '' ? Images.user : { uri: user.avatar }} style={styles.pic} />
-                <View>
-                    <View style={styles.nameContainer}>
-                        <Text style={styles.nameTxt} numberOfLines={1} ellipsizeMode="tail">{user.name}</Text>
+            <Block space={'between'} row>
+                <Block flex row style={styles.topArea}>
+                    <Image source={user.avatar == '' ? Images.user : { uri: user.avatar }} style={styles.pic} />
+                    <View>
+                        <View style={styles.nameContainer}>
+                            <Text style={styles.nameTxt} numberOfLines={1} ellipsizeMode="tail">{user.name}</Text>
+                        </View>
+                        <View style={styles.msgContainer}>
+                            <Text style={styles.msgTxt}>{moment(post.createdAt != 0 ? post.createdAt : post.datetime).format('DD MMM YYYY HH:mm')}</Text>
+                        </View>
                     </View>
-                    <View style={styles.msgContainer}>
-                        <Text style={styles.msgTxt}>{moment(post.createdAt != 0 ? post.createdAt : post.datetime).format('DD MMM YYYY HH:mm')}</Text>
-                    </View>
-                </View>
-            </View>
+                </Block>
+                <Block style={[styles.topArea, { justifyContent: 'flex-start' }]}>
+                    {currentUser && currentUser.isAdmin && <TouchableOpacity onPress={() => {
+                        setDeletePost(post)
+                        setDeleteVisible(true)
+                    }}>
+                        <Icon size={16} color={'red'} name="close" family="SimpleLineIcons" />
+                    </TouchableOpacity>
+                    }
+                </Block>
+            </Block>
         );
     }
 
@@ -52,24 +87,33 @@ export default Feeds = props => {
         )
     }
 
+    const notifyAdmins = () => sendPushNotifications(
+        users.data.filter(user => user.isAdmin),
+        "User Actvity",
+        `${currentUser.name} reacted to a market update`
+    )
+    
     const like = post => {
-        if (currentUser) realTimedbApi.updateData('posts', post.id, { likes:  post.likes ?  post.likes + 1 : 1 })
+        if (currentUser) {
+            api.updateData('posts', post.id, { likes: post.likes ? post.likes + 1 : 1 });
+            !currentUser.isAdmin && notifyAdmins()
+        }
         else props.navigation.navigate('Login')
     }
 
     const renderBottomSection = post => (
-            <View style={styles.cardFooter}>
-                <View style={styles.socialBarContainer}>
-                    <TouchableOpacity style={styles.socialBarSection} onPress={() => like(post)}>
-                        <TabBarIcon focused={true} name={'like'} />
-                        <Text style={styles.socialBarLabel}> { post.likes ? post.likes : 0 } </Text>
-                    </TouchableOpacity>
-                    <TouchableOpacity style={styles.socialBarSection} onPress={() => props.navigation.navigate('PostComments', { 'post': post })}>
-                        <TabBarIcon focused={true} name={'bubbles'} />
-                        <Text style={styles.socialBarLabel}> { messages.data.filter(m => m.parentId == post.id).length } </Text>
-                    </TouchableOpacity>
-                </View>
+        <View style={styles.cardFooter}>
+            <View style={styles.socialBarContainer}>
+                <TouchableOpacity style={styles.socialBarSection} onPress={() => like(post)}>
+                    <TabBarIcon focused={true} name={'like'} />
+                    <Text style={styles.socialBarLabel}> {post.likes ? post.likes : 0} </Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.socialBarSection} onPress={() => props.navigation.navigate('PostComments', { 'post': post })}>
+                    <TabBarIcon focused={true} name={'bubbles'} />
+                    <Text style={styles.socialBarLabel}> {messages.data.filter(m => m.parentId == post.id).length} </Text>
+                </TouchableOpacity>
             </View>
+        </View>
     )
 
     return (
@@ -77,12 +121,13 @@ export default Feeds = props => {
             {posts.data
                 .sort((a, b) => b.createdAt - a.createdAt)
                 .map((post, key) =>
-                <View key={key} >
-                    {renderTopSection(post)}
-                    {renderMiddleSection(post)}
-                    {renderBottomSection(post)}
-                </View>
-            )}
+                    <View key={key} >
+                        {renderTopSection(post)}
+                        {renderMiddleSection(post)}
+                        {renderBottomSection(post)}
+                    </View>
+                )}
+            <DeleteDialog />
             <Block center style={{ marginTop: 10 }}>
                 {posts.data == 0 && <Text>No posts.</Text>}
             </Block>
@@ -91,18 +136,17 @@ export default Feeds = props => {
 }
 
 const styles = StyleSheet.create({
-    row: {
-        flexDirection: 'row',
-        alignItems: 'center',
+    topArea: {
         borderColor: '#DCDCDC',
         backgroundColor: '#fff',
         borderTopWidth: 5,
-        padding: 10,
+        padding: 20,
     },
     pic: {
         borderRadius: 30,
         width: 60,
         height: 60,
+        resizeMode: height < 650 ? 'contain' : 'cover'
     },
     nameContainer: {
         flexDirection: 'row',

@@ -6,12 +6,15 @@ import {
     TouchableOpacity,
     Image,
     FlatList,
-    ScrollView
+    ScrollView,
+    Dimensions
 } from 'react-native';
 import { Block } from 'galio-framework';
 
 import { Images } from '../../../../shared/constants';
 import { UsersContext } from '../../../../root/store';
+
+const { height } = Dimensions.get('screen');
 
 export default Students = props => {
     const [users] = useContext(UsersContext);
@@ -63,6 +66,7 @@ const styles = StyleSheet.create({
         borderRadius: 30,
         width: 60,
         height: 60,
+        resizeMode: height < 650 ? 'contain' : 'cover'
     },
     nameContainer: {
         flexDirection: 'row',

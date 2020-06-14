@@ -14,12 +14,12 @@ const thumbMeasure = (width - 48 - 32) / 3;
 const options = [
   {
     title: 'Students',
-    image: require('../shared/assets/images/students-c.jpg'),
+    image: require('../shared/assets/images/grad.png'),
     horizontal: true
   },
   {
     title: 'Admins',
-    image: require('../shared/assets/images/admins-c.jpg'),
+    image: require('../shared/assets/images/teacher.png'),
     horizontal: true
   }
 ];
@@ -32,7 +32,7 @@ export default Home = props => {
   
   return (
     <Block flex style={styles.profile}>
-      <Block flex>
+      <Block flex >
         <ImagesSlider />
       </Block>
       <Block flex style={styles.options}>
@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     position: 'relative',
     padding: theme.SIZES.BASE,
     marginHorizontal: theme.SIZES.BASE,
-    marginTop: -theme.SIZES.BASE / 2,
+    marginTop: height > 700 ? height > 900 ? 0 : -55 : -55,
     borderTopLeftRadius: 13,
     borderTopRightRadius: 13,
     backgroundColor: theme.COLORS.WHITE,
@@ -97,6 +97,7 @@ const styles = StyleSheet.create({
     shadowRadius: 8,
     shadowOpacity: 0.2,
     zIndex: 2,
+    backgroundColor: 'transparent'
   },
   thumb: {
     borderRadius: 4,

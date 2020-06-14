@@ -10,7 +10,7 @@ import { UserContext } from '../root/store';
 
 if (!firebase.apps.length) firebase.initializeApp(appsettings.firebaseConfig);
 
-const { width } = Dimensions.get('screen');
+const { width, height } = Dimensions.get('screen');
 
 const Drawer = props => {
   const [currentUser] = useContext(UserContext)
@@ -31,8 +31,8 @@ const Drawer = props => {
         <DrawerItems {...props} />
       </ScrollView>
     </Block>
-    <Block flex>
-      <Text center> Version: {appsettings.version} </Text>
+    <Block>
+      <Text center style={{ paddingBottom: 100 }}> Version: {appsettings.version} </Text>
     </Block>
   </Block>
 )};
@@ -93,6 +93,7 @@ const styles = StyleSheet.create({
     width: 40,
     borderRadius: 20,
     marginBottom: theme.SIZES.BASE,
+    resizeMode: height < 650 ? 'contain' : 'cover'
   },
   pro: {
     backgroundColor: materialTheme.COLORS.LABEL,
