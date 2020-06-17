@@ -1,8 +1,7 @@
 export const sliderImages = [
   require('../assets/images/slider-images/alogo.jpg'),
   require('../assets/images/slider-images/graduate.png'),
-  require('../assets/images/slider-images/team1.jpg'),
-  require('../assets/images/slider-images/team2.png')
+  require('../assets/images/slider-images/team1.jpg')
 ]
 
 export const user = require('../assets/images/user.png')
