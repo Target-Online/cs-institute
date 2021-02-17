@@ -30,6 +30,8 @@ const Store = ({ children }) => {
 				pushNotifications.registerForPushNotificationsAsync(userId)
 			}
 		});
+
+		return () => {}
 	}, []);
 
 	return (

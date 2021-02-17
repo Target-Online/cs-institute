@@ -6,7 +6,7 @@ import { MessagesContext } from '../../../root/store';
 import { realTimedbApi } from '../../../../../api';
 import { sendPushNotifications } from '../../../../../shared/utils/pushNotificatons'
 
-export default Comments = props => {
+export default function Comments (props) {
     const [currentUser] = useContext(UserContext);
     const [users] = useContext(UsersContext);
     const [messages] = useContext(MessagesContext);

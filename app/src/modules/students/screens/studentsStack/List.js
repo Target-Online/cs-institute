@@ -16,7 +16,7 @@ import { UsersContext } from '../../../../root/store';
 
 const { height } = Dimensions.get('screen');
 
-export default Students = props => {
+export default function Students (props) {
     const [users] = useContext(UsersContext);
 
     const renderItem = ({ item }) => {

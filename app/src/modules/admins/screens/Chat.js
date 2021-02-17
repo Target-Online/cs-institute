@@ -6,7 +6,7 @@ import { MessagesContext, ClientsContext } from '../root';
 import { realTimedbApi } from '../api';
 import appsettings from '../../../../appsettings.json'
 
-export default ChatRoom = props => {
+export default function ChatRoom (props) {
     const [currentUser] = useContext(UserContext);
     const [clients] = useContext(ClientsContext);
     const [messages] = useContext(MessagesContext);

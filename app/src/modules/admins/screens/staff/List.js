@@ -13,7 +13,7 @@ import { Block } from 'galio-framework';
 import { Images } from '../../../../shared/constants';
 import { UsersContext } from '../../../../root/store';
 
-export default Users = props => {
+export default function Users (props){
     const [users] = useContext(UsersContext);
         
     const renderItem = ({ item }) => {

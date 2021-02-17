@@ -23,7 +23,7 @@ import { DocumentsContext } from '../../../root/store';
 const { width, height } = Dimensions.get('screen');
 const thumbMeasure = (width - 48 - 32) / 3;
 
-export default CourseView = props => {
+export default function CourseView (props){
     const { product } = props.navigation.state.params;
     const [image, setImage] = useState(product.avatar);
 

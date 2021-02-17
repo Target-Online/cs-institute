@@ -8,7 +8,7 @@ import { CoursesContext } from '../../root/store';
 
 const { height } = Dimensions.get('window');
 
-export default Courses = () => {
+export default function Courses (props){
   const [courses] = useContext(CoursesContext);
   const data = courses.data.sort((a, b) => b.createdAt - a.createdAt)
   const noData = data.length == 0;

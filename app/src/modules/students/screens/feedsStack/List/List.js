@@ -15,7 +15,7 @@ import * as api from '../../../../../api/realTimedbApi';
 
 const { height } = Dimensions.get('screen');
 
-export default Feeds = props => {
+export default function Feeds (props) {
     const [currentUser] = useContext(UserContext);
     const [likes] = useContext(LikesContext);
     const [posts] = useContext(PostsContext);

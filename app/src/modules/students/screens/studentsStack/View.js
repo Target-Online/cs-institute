@@ -15,7 +15,7 @@ import { Spinner } from '../../../../shared/components';
 const { width, height } = Dimensions.get('screen');
 const thumbMeasure = (width - 48 - 32) / 3;
 
-export default View = props => {
+export default function View (props) {
     const [currentUser, setUser] = useContext(UserContext);
     const { student } = props.navigation.state.params;
     const [avatarUpdate, setAavatarStatus] = useState(false);

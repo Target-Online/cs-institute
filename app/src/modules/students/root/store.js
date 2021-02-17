@@ -34,6 +34,8 @@ const Store = ({ children }) => {
         realTimedbApi.getCollection('messages', setMessages);
         realTimedbApi.getCollection('likes', setLikes);
         realTimedbApi.getCollection('posts', setPosts);
+
+        return () => {}
     }, []);
 
     return (

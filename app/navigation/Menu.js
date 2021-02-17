@@ -1,5 +1,5 @@
 import React from "react";
-import { DrawerItems } from 'react-navigation';
+import { DrawerItems } from 'react-navigation-drawer';
 import { TouchableWithoutFeedback, ScrollView, StyleSheet, Dimensions, Image } from "react-native";
 import { Block, Text, theme } from "galio-framework";
 

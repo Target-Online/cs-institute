@@ -14,7 +14,7 @@ import { materialTheme } from '../../../../../../shared/constants';
 import { Spinner, FontAwesomeIcons, Icon } from '../../../../../../shared/components';
 import { DocumentsContext } from '../../../../root/store';
 
-export default Documents = props => {
+export default function Documents (props){
     const [documents] = useContext(DocumentsContext);
     const [search, setSearch] = useState('');
     

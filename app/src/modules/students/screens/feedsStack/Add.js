@@ -15,7 +15,7 @@ import { Spinner } from '../../../../shared/components';
 const { width, height } = Dimensions.get('screen');
 const thumbMeasure = (width - 48 - 32) / 3;
 
-export default AddCourse = props => {
+export default function AddCourse (props) {
     const { navigation } = props;
     const [image, setImage] = useState('');
     const [caption, setCaption] = useState('');

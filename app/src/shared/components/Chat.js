@@ -4,7 +4,7 @@ import { GiftedChat } from 'react-native-gifted-chat'
 import { UserContext, StateContext } from '../../root/store';
 import { firestoreApi } from '../../api'
 
-export default ChatRoom = props => {
+export default function ChatRoom (props) {
     const [currentUser, setUser] = useContext(UserContext);
     const [messages, setMessages] = useState([])
     const [onChange, setChange] = useState({})

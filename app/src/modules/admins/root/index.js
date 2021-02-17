@@ -25,6 +25,8 @@ const Store = ({ children }) => {
         realTimedbApi.getCollection('documents', dispatchDocuments);
         realTimedbApi.getCollection('messages', dispatchMessages);
         realTimedbApi.getCollection('clients', dispatchClients);
+        
+        return () => {}
     }, []);
 
     return (

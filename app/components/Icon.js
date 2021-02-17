@@ -5,7 +5,7 @@ import { Icon } from 'galio-framework';
 
 import GalioConfig from '../assets/fonts/galioExtra';
 
-const GalioExtra = require('../assets/fonts/galioExtra.ttf');
+const GalioExtra = require('../assets/fonts/galioExtra');
 const IconGalioExtra = createIconSetFromIcoMoon(GalioConfig, 'GalioExtra');
 
 export default class IconExtra extends React.Component {

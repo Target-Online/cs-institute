@@ -24,7 +24,7 @@ const options = [
   }
 ];
 
-export default Home = props => {
+export default function Home (props){
   const { navigation } = props;
   const [users] = useContext(UsersContext);
   const [currentUser] = useContext(UserContext)

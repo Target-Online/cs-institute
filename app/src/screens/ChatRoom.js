@@ -10,7 +10,7 @@ if (!firebase.apps.length) {
   firebase.initializeApp(appsettings.firebaseConfig);
 }
 
-export default ChatRoom = props => {
+export default function ChatRoom (props) {
   const firebaseUser = firebase.auth().currentUser;
   
   if(firebaseUser === null) props.navigation.navigate('Login');

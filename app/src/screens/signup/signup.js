@@ -12,7 +12,7 @@ import { UsersContext } from '../../root/store'
 const { width, height } = Dimensions.get('screen');
 const thumbMeasure = (width - 48 - 32) / 3;
 
-export default AddUser = props => {
+export default function AddUser (props) {
     const { navigation } = props;
     const [users] = useContext(UsersContext);
     const [image, setImage] = useState('');

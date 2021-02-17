@@ -13,7 +13,7 @@ import { Block } from 'galio-framework';
 import { Spinner } from '../../../../shared/components';
 import { AnnouncementsContext } from '../../root';
 
-export default Announcements = props => {
+export default function Announcements (props){
     const [announcements] = useContext(AnnouncementsContext);
     const data = announcements.data.filter(d => d.parentId == props.id)
 

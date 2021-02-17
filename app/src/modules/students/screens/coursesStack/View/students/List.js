@@ -15,7 +15,7 @@ import { Images } from '../../../../../../shared/constants';
 import { StudentCourseContext } from '../../../../root/store';
 import { UsersContext } from '../../../../../../root/store';
 
-export default Users = props => {
+export default function Users (props) {
     const [students] = useContext(UsersContext);
     const [studentCourse] = useContext(StudentCourseContext);
 

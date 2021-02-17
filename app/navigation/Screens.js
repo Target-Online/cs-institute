@@ -1,6 +1,8 @@
 import React from 'react';
 import { Easing, Animated, Platform } from 'react-native';
-import { createSwitchNavigator, createStackNavigator, createDrawerNavigator, createAppContainer } from 'react-navigation';
+import {  createStackNavigator } from 'react-navigation-stack';
+import { createDrawerNavigator } from 'react-navigation-drawer';
+import { createAppContainer } from 'react-navigation';
 
 import { Block, Text, theme } from "galio-framework";
 

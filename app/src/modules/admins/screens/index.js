@@ -26,7 +26,7 @@ import appsettings from '../../../../appsettings.json'
 const { width, height } = Dimensions.get('screen');
 const thumbMeasure = (width - 48 - 32) / 3;
 
-export default CourseView = props => {
+export default function CourseView (props) {
     const [clients] = useContext(ClientsContext);
     const client = clients.data.filter(c => c.name == appsettings.appName)[0] 
 

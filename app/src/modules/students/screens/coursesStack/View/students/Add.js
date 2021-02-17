@@ -16,7 +16,7 @@ import { Images } from '../../../../../../shared/constants';
 import { StudentCourseContext } from '../../../../root/store';
 import { UsersContext } from '../../../../../../root/store';
 
-export default Students = props => {
+export default function Students (props) {
     const [students] = useContext(UsersContext);
     const [studentCourse] = useContext(StudentCourseContext);
     const { course } = props.navigation.state.params;
