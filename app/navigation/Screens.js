@@ -1,7 +1,7 @@
 import React from 'react';
 import { Easing, Animated, Platform } from 'react-native';
-import {  createStackNavigator } from 'react-navigation-stack';
-import { createDrawerNavigator } from 'react-navigation-drawer';
+import {  createStackNavigator } from 'react-navigation';
+import { createDrawerNavigator } from 'react-navigation';
 import { createAppContainer } from 'react-navigation';
 
 import { Block, Text, theme } from "galio-framework";
@@ -15,7 +15,7 @@ import SettingsScreen from '../screens/Settings';
 
 import Menu from './Menu';
 import Header from '../components/Header';
-import { Drawer } from '../components/';
+import Drawer from '../components/Drawer';
 
 const transitionConfig = (transitionProps, prevTransitionProps) => ({
   transitionSpec: {

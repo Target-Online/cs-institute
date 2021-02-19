@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { StyleSheet, Dimensions, ScrollView, TouchableOpacity, Platform } from 'react-native';
 import { Block, theme } from 'galio-framework';
 
@@ -7,6 +7,8 @@ import { materialTheme } from '../shared/constants';
 import { HeaderHeight } from "../../constants/utils";
 import { UserContext, UsersContext } from '../root/store';
 import { onInfo } from '../shared/utils/notifications'
+import { getRemoteConfig } from '../api/realTimedbApi';
+import OutOfService from './out-of-service'
 
 const { width, height } = Dimensions.get('screen');
 const thumbMeasure = (width - 48 - 32) / 3;
@@ -24,12 +26,25 @@ const options = [
   }
 ];
 
-export default function Home (props){
+export default function Home(props) {
   const { navigation } = props;
   const [users] = useContext(UsersContext);
   const [currentUser] = useContext(UserContext)
   const isAdmin = currentUser && currentUser.isAdmin;
-  
+  const [modalVisible, setModalVisible] = useState(false);
+  const [remoteConfig, setRemoteConfig] = useState({})
+
+  React.useEffect(() => {
+    async function fetchData() {
+      return await getRemoteConfig('remote-config', setRemoteConfig);
+    }
+    fetchData();
+  }, [])
+
+  React.useEffect(() => {
+    if (remoteConfig.isOutOfService) setModalVisible(true)
+  }, [remoteConfig])
+
   return (
     <Block flex style={styles.profile}>
       <Block flex >
@@ -37,15 +52,21 @@ export default function Home (props){
       </Block>
       <Block flex style={styles.options}>
         <ScrollView showsVerticalScrollIndicator={true}>
-            <TouchableOpacity onPress={() => !users.inProgress &&  navigation.navigate('Students')}>
-              <Product product={options[0]} horizontal inProgress={users.inProgress}/>
-            </TouchableOpacity>
+          <TouchableOpacity onPress={() => !users.inProgress && navigation.navigate('Students')}>
+            <Product product={options[0]} horizontal inProgress={users.inProgress} />
+          </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => !users.inProgress && (isAdmin ? navigation.navigate('Admins') : onInfo('No access.'))}>
-              <Product product={options[1]} horizontal inProgress={users.inProgress}/>
-            </TouchableOpacity>
+          <TouchableOpacity onPress={() => !users.inProgress && (isAdmin ? navigation.navigate('Admins') : onInfo('No access.'))}>
+            <Product product={options[1]} horizontal inProgress={users.inProgress} />
+          </TouchableOpacity>
         </ScrollView>
       </Block>
+      {modalVisible && (
+        <OutOfService
+          isVisible={modalVisible}
+          setVisible={setModalVisible}
+        />
+      )}
     </Block>
   );
 }

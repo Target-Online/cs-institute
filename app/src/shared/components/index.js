@@ -1,5 +1,5 @@
 import Button from './Button';
-import Select from './Select';
+import Select from './Icon';
 import Icon from './Icon';
 import Tabs from './Tabs';
 import Product from './Card';

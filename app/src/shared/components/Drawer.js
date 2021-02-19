@@ -12,7 +12,7 @@ const proScreens = ['Kids', 'New Collection', 'Sign In', 'Sign Up'];
 export const DrawerItem = ({ focused, title }) => {
   const [user] = useContext(UserContext)
 
-  renderIcon = () => {
+  const renderIcon = () => {
     switch (title) {
       case 'Login':
         return (
@@ -94,13 +94,13 @@ export const DrawerItem = ({ focused, title }) => {
     <Filter hide={title == 'Admins' && !isAdmin}>
         <Block flex row style={[styles.defaultStyle, focused ? [styles.activeStyle, styles.shadow] : null]}>
           <Block middle flex={0.1} style={{ marginRight: 28 }}>
-            {this.renderIcon()}
+            {renderIcon()}
           </Block>
           <Block row center flex={0.9}>
             <Text size={18} color={focused ? 'white' : proScreen ? materialTheme.COLORS.MUTED : 'black'}>
               {title == 'Login' && user ? 'Logout' : title}
             </Text>
-            {this.renderLabel()}
+            {renderLabel()}
           </Block>
         </Block>
     </Filter>

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { DrawerItems } from 'react-navigation-drawer';
+import { DrawerItems } from 'react-navigation';
 import { TouchableWithoutFeedback, ScrollView, StyleSheet, Dimensions, Image } from "react-native";
 import { Block, Text, theme } from "galio-framework";
 import firebase from "firebase";

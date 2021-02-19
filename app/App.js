@@ -1,6 +1,6 @@
 console.disableYellowBox = true;
 
-import 'firebase/firestore'
+//import 'firebase/firestore'
 import { Platform, StatusBar, Image } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import { Asset } from 'expo-asset';
@@ -24,6 +24,7 @@ global.crypto.getRandomValues = byteArray => { for (let i = 0; i < byteArray.len
 if (!global.btoa) { global.btoa = encode; }
 
 if (!global.atob) { global.atob = decode; }
+
 
 export default function App(props) {
   const [isLoadingComplete, setLoadingComplete] = useState(false);
